@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Paywall Remover",
+  "description": "This extension removes specific paywall overlays.",
+  "version": "1.0",
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
